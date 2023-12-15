@@ -3,7 +3,7 @@
 
 -------------------------------------------------------------------------------------------------------
 
-Primero deberemos localizar el archivo donde se almacena el "TARGET" cuando lo especificamos con el comando `settarget`. Para ello nos iremos a __~.zshrc__:
+Primero deberemos localizar el archivo donde se almacena el "TARGET" cuando lo especificamos con el comando `settarget`. Para ello nos iremos a __~.zshrc__, donde también estaremos realizando todo el proceso:
 ```bash
 nano ~/.zshrc
 ```
@@ -38,13 +38,16 @@ Ahora, por si hubiese algún error al hacer el escaneo de nmap, pondremos un men
 ![Captura de pantalla 6](https://github.com/samucrow/escaneo_nmap/assets/34478588/fc17a335-50f2-4b9c-b0d5-c0a03ba7426c)
 Y ahora, por último, especificaremos las instrucciones a seguir si el archivo "_~/.config/polybar/shapes/scripts/target_" está vacío (si no hay ninguna palabra):
 ![Captura de pantalla 7](https://github.com/samucrow/escaneo_nmap/assets/34478588/1597538a-2e5f-4831-a1b2-9266dfcfd64e)
-Y ya estaría!!! Súper simple pero muy efectivo, ahora veamos la práctica. 
-1. Con target válido:
+Y ya estaría!!! Súper simple pero muy efectivo, solo quedaría REINICIAR nuestra máquina para que los cambios sean efectivos!!
+
+## Ahora veamos la práctica. 
+
+### 1. Con target válido:
 
 ![Captura de pantalla 8](https://github.com/samucrow/escaneo_nmap/assets/34478588/a484ea0d-9353-49fa-b7fb-977d371baa91)
 
-2. Con target vacío:
+### 2. Con target vacío:
 ![Captura de pantalla 9](https://github.com/samucrow/escaneo_nmap/assets/34478588/af45594a-b8b4-4b52-b701-7cd9853dfa53)
 
-3. Escaneo fallido:
+### 3. Escaneo fallido:
 ![Captura de pantalla 10](https://github.com/samucrow/escaneo_nmap/assets/34478588/4e45eb67-6be4-4113-89b8-9bb6d357b434)
